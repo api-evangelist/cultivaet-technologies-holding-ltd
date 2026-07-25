@@ -1,8 +1,26 @@
 aid: cultivaet-technologies-holding-ltd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cultivaet-technologies-holding-ltd.png
 name: Cultivaet Technologies Holding Ltd.
-description: Cultivaet Technologies Holding Ltd. is a company surfaced as a portfolio company of 500-global
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Cultivaet Technologies Holding Ltd. is an AI-driven agricultural technology ("AgriTech for
+  Humanity") startup based in Egypt serving smallholder farmers across the Middle East. Its products
+  include a Farmer AI Companion delivering personalized weather, crop-planning, pest-control and
+  soil-health insights, a Knowledge Platform that collects/analyzes/distributes social and scientific
+  agricultural data, and a Business SaaS connecting farmers with food-industry buyers for sustainable
+  procurement and traceability. The company is backed by 500 Global and Sanabil and is part of the Google
+  Cloud Startups Program (pre-seed, 2024). As of this enrichment pass Cultivaet publishes only a marketing
+  site (cultivaet.ai) with no public API, developer portal, documentation, SDKs, or other developer
+  surface, so no API artifacts were generated.
 url: https://raw.githubusercontent.com/api-evangelist/cultivaet-technologies-holding-ltd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- AgriTech
+- Agriculture
+- Artificial Intelligence
+- Machine Learning
+- SaaS
+- Sustainability
+- Egypt
+- Middle East
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +49,9 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://cultivaet.net
+  url: https://cultivaet.ai/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
