@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cultivaet-technologies-holding-ltd.png
-name: Cultivaet Technologies Holding Ltd.
+name: Cultivaet
 description: Cultivaet Technologies Holding Ltd. is an AI-driven agricultural technology ("AgriTech for
   Humanity") startup based in Egypt serving smallholder farmers across the Middle East. Its products
   include a Farmer AI Companion delivering personalized weather, crop-planning, pest-control and
@@ -44,10 +44,10 @@ created: '2026-07-17'
 modified: '2026-07-18'
 tags:
 - Company
-- AgriTech
+- AgTech
 - Agriculture
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Software-as-a-Service
 - Sustainability
 - Egypt
@@ -62,6 +62,7 @@ tags_raw:
 - Sustainability
 - Egypt
 - Middle East
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -76,3 +77,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: Cultivaet Technologies Holding Ltd.
